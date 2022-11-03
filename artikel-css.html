@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>artikel-css</title>
+    <style>
+        * {
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Open Sans', 'sans-serif';
+            position: relative;
+        }
+
+        .header {
+            width: 1100px;
+            margin: auto;
+            position: relative;
+        }
+
+        .logo {
+            font-size: 40px;
+            font-weight: bolder;
+            float: left;
+            font-family:'Courier New', Courier, monospace;
+            color: #364F6B;
+        }
+
+        .author {
+            font-size: 15px;
+            margin : 0px;
+        }
+
+        .menu {
+            float: right;
+            padding: 10px;
+        }
+
+        nav {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            line-height: 40px;
+            position: -webkit-sticky;
+            top: 0;
+            background-color: #FFE3E1;
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            color: #8675A9;
+            padding : 0px 16px 0px 16px;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            text-decoration-color: #2D4059;
+            color:#14274E;
+        }
+
+        .awalan {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .deskripsi {
+            font-size: 15px;
+            font-weight: bold;
+            font-family: 'comic sans ms';
+            color: #364F6B; 
+            margin-top: 30px;
+        }
+
+        .left-img {
+            float:left;
+            margin-top: 30px;
+        }
+
+        .right-img {
+            float: right;
+        }
+
+        .content {
+            width: 1100px;
+            margin: auto;
+            position: relative;
+        }
+
+        h2 {
+            font-family: 'comic sans ms';
+            font-weight: 800;
+            font-size: 45px;
+            margin-bottom: 20px;
+            color: #364F6B;
+            width: 100%;
+            line-height: 50px;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: 'comic sans ms';
+            color: #364F6B;
+            text-align: justify;  
+        }
+
+        .cara-penulisan li {
+            margin-bottom: 5px;
+            padding: 5px;
+            text-align: justify;
+            background-color: #D2DAFF;
+            border-radius: 10px;
+            border-style: dashed;
+        }
+
+        .cara-penulisan {
+            text-align: justify;
+            font-size: 20px;
+            font-family: 'comic sans ms';
+            color: #364F6B;
+        }
+
+        .center-img{
+            display: block;
+            margin: auto;
+        }
+
+        .istilah-css ul li {
+            margin-bottom: 10px;
+            margin-left: 600px;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            background-color: #D2DAFF;
+            border-radius: 10px;
+            border-style: dashed;
+        }
+
+        .istilah-css {
+            font-size: 20px;
+            font-family: 'comic sans ms';
+            color: #364F6B; 
+        }
+
+        .istilah-css h2 {
+            margin-left: 600px;
+        }
+
+        .istilah-css p {
+            margin-left: 600px;
+        }
+
+        table {
+            border: #2D4059;
+            border-style: dotted;
+            font-size: 18px;
+            font-family: 'comic sans ms';
+            color: #364F6B;
+        }
+
+        table th {
+           background-color: #cfd0ff ;
+        }
+
+        .dapus {
+            background-color: #fff1ff;
+            text-decoration: underline;
+            border-style:ridge;
+        }
+
+        .dapus a:hover {
+            text-decoration-color: red;
+            color: brown;
+        }
+
+        .footer {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            line-height: 40px;
+            position: -webkit-sticky;
+            bottom: 0;
+            background-color: #FFE3E1;
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+            font-weight: bolder;
+            font-family: 'comic sans ms';
+            color: #364F6B;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <div class="logo">Artikel CSS
+                <div class="author">---------> by @intanutamiputri </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="about-me.html" target="_blank">About</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                    <li><a href="artikel-css.html" target="_blank">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <img class="left-img" src="https://img.freepik.com/free-vector/programmer-working-with-css_52683-24172.jpg?w=900&t=st=1664094963~exp=1664095563~hmac=89516d79e4699d629bc0f2991130f1ecca5cc8b9e9ea6a9d955fdf47bd68d16e" width="50%">
+        <div class="awalan">
+            <br>
+            <p class="deskripsi">Belajar CSS untuk mendesain Web</p>
+            <h2>Pengenalan Dasar CSS</h2>
+            <p>Pemahaman CSS sangat penting bagi <b>front-end</b> web developer. </p>
+            <br>
+            <p>CSS digunakan untuk <b>mendesain situs web</b>, dengan CSS element HTML akan
+                dapat didesain sedemikian rupa sehingga tampilan situs web menjadi lebih cantik. </p>
+            <br>
+            <p>Pada artikel kali ini kita akan membahas lebih lanjut mengenai CSS, 
+                 dimulai dari pengertian, cara penulisan, syntax, istilah-istilah CSS, dan CSS box model.
+            <br><br>
+        </div>
+    </div>
+
+    <div class="content">
+        <img class="right-img" src="https://image.shutterstock.com/image-vector/css-cascading-style-sheets-concept-600w-2110568963.jpg" width="50%">
+        <div class="definisi">
+            <p class="deskripsi">Yuk cari tau...</p>
+            <h2>Apa itu CSS?</h2>
+            <p><b>CSS <i>(Cascading Style Sheet)</i></b> merupakan sebuah bahasa pemrograman yang digunakan
+                 untuk mengatur atau mendesain tampilan web sehingga terlihat lebih menarik dan indah. </p>
+            <br>
+            <p>CSS menjelaskan bagaimana elemen HTML ditampilkan, seorang web developer dapat mengatur <i>layout</i>, warna, font, garis
+                background, animasi, dan lain-lain pada halaman webnya.</p>
+        </div>
+
+        <br><br><br><br><br><br><br>
+
+        <div class="cara-penulisan">
+            <p class="deskripsi">Selanjutnya kita cari tau tentang cara penulisan CSS</p>
+            <h2>Bagaimana Cara Menulis CSS di HTML?</h2>
+            <img class="center-img" src="https://img.freepik.com/premium-vector/website-programming-coding-web-development-concept-vector-illustration_530733-1710.jpg?w=1060" width="50%">
+            <p>Untuk <b>menulis CSS di HTML</b> ada tiga cara yaitu: </p>
+            <br><br>
+                <ol>
+                    <li><b>Internal CSS</b> --> ditulis di dalam tag <b>&lt;style&gt;</b></li>
+                    <li><b>Inline CSS</b> --> ditulis di <b>atribut</b> elemen HTML</li>
+                    <li><b>External CSS</b> --> ditulis di file CSS <b>terpisah</b> dengan HTML</li>
+                </ol>
+            <br><br>
+            <p class="deskripsi">Berikut penjelasannya...</p>
+            <br>
+            <dl>
+                <dt><b>1. Internal CSS</b></dt>
+                    <br>
+                    <dd>Cara penulisan kode CSS secara <b>internal</b> yaitu kode CSS ditulis di dalam
+                        tag <b>&lt;style&gt;</b>. Metode penulisan CSS secara Internal juga dikenal dengan
+                        sebutan <b><i>Embeded CSS</i></b>.
+                        <br><br>
+                        Tag <b>&lt;style&gt;</b> bisa ditulis di dalam tag <b>&lt;head&gt;</b>, bisa juga ditulis di dalam tag <b>&lt;body&gt;</b>. 
+                        Namun umumnya ditulis di dalam <b>&lt;head&gt;</b>.
+                    </dd>
+                    <br><br>
+
+                <dt><b>2. Inline CSS</b></dt>
+                    <br>
+                    <dd>Cara penulisan kode CSS secara <b>inline</b> yaitu kode CSS ditulis langsung pada atribut
+                        <b>&lt;style&gt;</b> di elemen HTML. 
+                        <br><br>
+                        Kode CSS ditulis langsung tanpa menggunakan kurung kurawal <b>{...}</b>. Namun penulisan properti
+                        tetap dipisah dengan tanda titik koma.
+                        <br><br>
+                        Inline CSS biasanya digunakan untuk memberikan style pada satu elemen saja. CSS pada inline akan lebih 
+                        diprioritaskan dibandingkan dengan internal dan eksternal.
+                    </dd>
+                    <br><br>
+
+                <dt><b>3. External CSS</b></dt>
+                    <br>
+                    <dd>Eksternal CSS adalah kode CSS yang ditulis terpisah dengan kode HTML. 
+                        Eksternal CSS ditulis di dalam file khusus yang berekstensi .css.
+                        <br><br>
+                        Untuk menggunakan metode CSS External, file CSS harus dihubungkan dengan file HTML.
+                        Ada 2 cara yang dapat dilakukan untuk menghubungkan file CSS ke HTML yaitu dengan
+                        menggunakan tag <b>&lt;link&gt;</b> dan menggunakan <b>@import</b>.
+                    </dd>
+                    <br>     
+            </dl>
+            <p class="deskripsi">Untuk lebih jelasnya dapat dilihat pada contoh gambar di bawah ini</p>
+            <br><br>
+            <img class="center-img" src="https://www.bitdegree.org/learn/storage/media/images/8c4493d3-110c-4a95-8b70-7626ce2d2f4e.o.jpg" width="50%">
+        </div>
+
+        <br><br><br>
+
+        <div class="syntax-css">
+            <p class="deskripsi">Sebelum mempelajari CSS lebih lanjut, yuk cari tau tentang sintax CSS</p>
+            <h2>CSS Syntax </h2>
+            <img class="center-img" src="http://www.etsav.upc.edu/assignatures/portafoli/imatges/css.jpg" width="50%">
+        </div>
+
+        <br><br><br>
+
+        <div class="istilah-css">
+            <img class="left-img"src="https://img.freepik.com/free-vector/java-developer-smartphone-software-javascript-coding-writing-application-css-programming-html-source-code-tampering-mobile-program-isolated-concept-metaphor-illustration_335657-1153.jpg?w=740&t=st=1664155449~exp=1664156049~hmac=87ed1cd46eae435c71f9b5a53f075707a6b606a3eacd7d748664527ff19707dd" width="40%">
+            <p class="deskripsi">Yuk kenali istilah-istilah yang ada di dalam CSS</p>
+            <h2>Istilah-Istilah CSS</h2>
+            <br>
+            <ul type="disc">
+                <li>Declaration</li>
+                <li>Selector</li>
+                <li>Property</li>
+                <li>Value</li>
+            </ul>
+            <br><br><br><br>
+            <dl>
+                <dt><b>1. Declaration</b></dt>
+                <br>
+                <dd><b>Declaration</b> merupakan satu baris code pada CSS (tidak termasuk comment) yang 
+                    biasanya diapit oleh tanda kurung kurawal <b>{...}</b>
+                    <br><br>
+                    Semua sintaks setelah kurung kurawal pertama dan sebelum kurung kurawal terakhir 
+                    (dan tidak termasuk komentar) adalah sebuah declaration. Berikut contoh dari declaration.
+                    <img class="center-img" src="https://global-uploads.webflow.com/6100d0111a4ed76bc1b9fd54/616d52cda9aec284391de911_bahasa-pemrograman-css-declaration-1.png" width="80%">
+                    Untuk dua atau lebih declaration, dapat ditulis seperti pada contoh dibawah.
+                    <img class="center-img" src="https://global-uploads.webflow.com/6100d0111a4ed76bc1b9fd54/616d52cdbeeb44e63f6565ff_bahasa-pemrograman-css-declaration-2.png" width="80%">
+                </dd>
+                <br>
+                <dt><b>2. Selector</b></dt>
+                <br>
+                <dd>Pada CSS, <b>selector</b> digunakan untuk memilih elemen mana dari HTML yang akan <b>ditargetkan atau dipengaruhi</b> bersama dengan <i>property dan value</i>.
+                    Seperti contoh, apabila kita ingin mengatur posisi teks atau warna teks, 
+                    cara memilihnya adalah dengan memakai selector.
+                    <br><br>
+                    Berikut contohnya, kode di bawah 
+                    yang menjadi selector yaitu tag <b>&lt;p&gt;</b>. Selector akan membuat seluruh elemen yang berada di tag <b>&lt;p&gt;</b> terpengaruh oleh <i><b>property dan value</b></i> yang diberikan, 
+                    yaitu posisi teks-nya akan berada di tengah dan teks akan berwarna merah.
+                    <img class="center-img" src="https://global-uploads.webflow.com/6100d0111a4ed76bc1b9fd54/616d52cda583960985639c9e_bahasa-pemrograman-css-selector-1.png">
+                </dd>
+                <br>
+                <dt><b>3. Property</b></dt>
+                <br>
+                <dd><b>Property</b> pada CSS digunakan untuk menambahkan atau mengatur ukuran teks, jenis font, warna teks, warna background, dan sebagainya.
+                    <br><br>
+                    Property muncul sebelum titik dua (:) dan sesudah titik koma (;) di setiap barisnya, seperti pada gambar di bawah ini. Pada gambar di bawah
+                    <b>font-size, font-weight, border, dan color</b> yang merupakan bagian <b>property</b>.
+                    <img class="center-img" src="https://global-uploads.webflow.com/6100d0111a4ed76bc1b9fd54/616d52ce5da44697584a9acf_bahasa-pemrograman-css-property.png" width="50%">
+                </dd>
+                <br>
+                <dt><b>4. Value</b></dt>   
+                <dd><br><b>Value</b> adalah kode CSS yang mendefinisikan pengaturan untuk property CSS.
+                    value atau nilai ditulis setelah titik dua (:) di setiap barisnya.
+                    <br><br>
+                    Pada contoh di bawah, kode tersebut memiliki selector h1 yang diberikan
+                    property font-size dengan <b>value</b>'24px'.
+                    <img class="center-img" src="https://global-uploads.webflow.com/6100d0111a4ed76bc1b9fd54/616d52cd7a3f074b813ee33f_bahasa-pemrograman-css-value.png" width="50%">
+                </dd>
+            </dl>
+        </div>
+
+        <br><br>
+
+        <div class="box-model">
+            <img class="right-img" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png">
+            <p class="deskripsi">Pernah dengar istilah CSS box model? Yuk cari tau!</p>
+            <h2>CSS Box Model</h2>
+            <br>
+            <p>
+                CSS Box Model adalah sebuah konsep dimana setiap element yang terdapat pada halaman web diproses sebagai kotak (box). Mulai dari paragraf, header, form, gambar, logo hingga video, sebenarnya di tampilkan oleh web browser sebagai ‘box’.
+                <br><br>
+                Sebagaimana layaknya ‘kotak’, masing-masing element HTML ini terdiri dari 4 lapisan, yakni: konten (isi), padding, border dan margin. Keempat ‘lapisan’ inilah yang membangun CSS Box Model.
+            </p>
+            <br><br><br><br><br><br>
+            <table border="1" cellpadding="10" cellspacing="5">
+                <tr>
+                    <th>Bagian CSS Box Modeling</th>
+                    <th>Deskripsi</th>
+                </tr>
+                <tr>
+                    <td>Content</td>
+                    <td>Content merupakan isi dari elemen yang letaknya di tengah-tengah pada box model. Biasanya berupa teks atau gambar.</td>
+                </tr>
+                <tr>
+                    <td>Padding</td>
+                    <td>Padding digunakan untuk membuat ruang di sekitar konten elemen, di dalam batas yang
+                        ditentukan (padding, padding-top, padding-right, padding-bottom, padding-left).
+                    </td>
+                </tr>
+                <tr>
+                    <td>Border</td>
+                    <td>Border merupakan garis tepi pembatas element. Kita bisa mengatur berbagai hal tentang border, seperti ketebalan, warna, dan jenis garis yang digunakan.</td>
+                </tr>
+                <tr>
+                    <td>Margin</td>
+                    <td>Margin berguna untuk mengatur ruang (space) di luar elemen. (Margin, margin-top, margin-right, margin-bottom, margin-left).</td>
+                </tr>
+            </table>
+            <br><br><br>
+        </div>
+
+        <div class="dapus">
+            <h2>Daftar Pustaka</h2>
+            <p border="1">
+                <a href="https://www.binaracademy.com/blog/apa-itu-css-dan-penjelasan-lengkapnya" target="_blank">
+                    Binary Academy. Apa Itu CSS dan Penjelasan Lengkapnya
+                </a>
+                <br><br>
+                <a href="https://www.w3schools.com/css/" target="_blank">
+                    W3School. CSS Tutorial
+                </a>
+                <br><br>
+                <a href="https://www.petanikode.com/tutorial/css/" target="_blank ">
+                    Petani Kode. Tutorial Dasar CSS untuk Pemula
+                </a>
+            </p>
+        </div>
+    </div>
+<br><br><br><br>
+    <div class="footer">
+            Copyright &copy; 2022 Intan Utami.
+    </div>
+</body>
+</html>
